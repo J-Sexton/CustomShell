@@ -21,6 +21,7 @@ private:
         ls,
         ll,
         cp,
+        cd,
         cat,
         grep,
         clear,
@@ -43,6 +44,7 @@ private:
 
     void ls_func();
     void cp_func();
+    void cd_func();
     void cat_func();
     void grep_func();
     void clear_func();
