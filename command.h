@@ -23,6 +23,7 @@ private:
         cp,
         cat,
         grep,
+        statf,
         clear,
         exit,
         help
@@ -45,6 +46,7 @@ private:
     void cp_func();
     void cat_func();
     void grep_func();
+    void stat_func();
     void clear_func();
     void exit_func();
     void help_func();
